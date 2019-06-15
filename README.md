@@ -1,6 +1,8 @@
 # When-U-Bored
-##Project for Code::Buffalo hackathon
-###Team 12<br>
+
+## Project for Code::Buffalo hackathon
+
+### Team 12 <br>
 Wenqi Li<br>
 Xinguo Zhu<br>
 Tingting Wang<br>
