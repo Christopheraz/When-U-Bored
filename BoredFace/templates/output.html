@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+
+<html xmlns:max-width="http://www.w3.org/1999/xhtml" xmlns:max-height="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <meta charset="utf-8">
+
+    <!-- Description, Keywords and Author -->
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+
+
+    <title>Bored Swap Face</title>
+
+    <link rel="shortcut icon" href="{% static '/images/favicon.ico' %}" type="image/x-icon">
+
+
+
+    <!-- style -->
+
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+
+    <!-- style -->
+
+    <!-- bootstrap -->
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+
+    <!-- responsive -->
+
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet" type="text/css">
+
+    <!-- font-awesome -->
+
+    <link href="{% static  'css/fonts.css' %}" rel="stylesheet" type="text/css">
+
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+
+    <!-- font-awesome -->
+
+
+    <link rel="stylesheet" type="text/css" href="{% static  'css/index.css'%}">
+    <link href="{% static 'css/wait.css' %}" rel="stylesheet" type="text/css">
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- header -->
+
+<header role="header">
+
+    <div class="container">
+
+        <!-- logo -->
+
+        <h1>
+
+            <a href="index.html" title="">Face Swap</a>
+
+        </h1>
+
+        <!-- logo -->
+
+        <!-- nav -->
+
+        <nav role="header-nav" class="navy">
+
+            <ul>
+
+                <li class="nav-active"><a href="index.html" title="">More about us</a></li>
+
+                <li><a href="about.html" title=""></a></li>
+
+                <li><a href="blog.html" title=""></a></li>
+
+                <li><a href="contact.html" title=""></a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- nav -->
+
+    </div>
+
+</header>
+
+<!-- header -->
+
+<!-- main -->
+
+<main role="main-inner-wrapper" class="container">
+
+    <hr>
+    <div class="row">
+
+
+
+        <div class="col-xs-12 col-sm-12 col-md-4">
+
+            <header role="work-title">
+
+                <!--<h1>Face swap</h1>-->
+
+            </header>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8">
+
+            <section>
+
+                <!--<p class="p-text"><br/><br/>Upload your picture or take a photo here</p>-->
+
+            </section>
+
+
+
+        </div>
+
+
+
+        <div class="clearfix"></div>
+
+
+
+        <!-- thumbnails -->
+
+        <div class="thumbnails-pan">
+
+            <div align="center" class="outputing">
+
+                <img src="{% static '/images/example.jpeg' %}">
+
+            </div>
+
+
+
+        </div>
+
+
+        <!-- thumbnails -->
+        <div class="thumbnails-pan">
+
+        </div>
+
+
+
+
+    </div>
+
+    <hr>
+
+    <div class="outputing">
+
+        <p style="font-family: PingFangSC;font-size: 20px;" align="center">
+            Play soccer with friends
+        </p>
+
+        <div class="button">
+
+            <div style="float: left;width:48%" align="center" width=20%>
+
+                <button width=20% align="center" class="btn2_faceSwap" type="button" onclick="faceSwap(this)">SWAP</button>
+
+            </div>
+
+            <div style="float: left;width:48%" align="center" width=20%>
+
+                <button width=20% align="center" class="btn2_faceBack" type="button" onclick="javascript:window.location.href='http://www.google.com'">BACK</button>
+                <!--<a class="btn_faceBack" href="face-swap.html">BACK</a>-->
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</main>
+
+<!-- main -->
+
+<!-- footer -->
+
+
+<!-- footer -->
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<script src="{% static 'js/jquery.min.js'%}" type="text/javascript"></script>
+
+<!-- custom -->
+
+<script src="{% static 'js/nav.js' %}" type="text/javascript"></script>
+
+<script src="{% static 'js/custom.js' %}" type="text/javascript"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
+
+<!-- jquery.countdown -->
+
+<script src="{% static 'js/html5shiv.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/exif.js' %}"></script>
+<script src="{% static 'js/upload.js' %}"></script>
+<script src="{% static 'js/index.js' %}"></script>
+
+</body>
+
+</html>
