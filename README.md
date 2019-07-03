@@ -23,34 +23,30 @@ https://youtu.be/rI9irzmHXio
 
 ## Public API
 
-- Bored api
+- [Bored api](http://www.boredapi.com/)
 
   Let's find you something  to do !
 
-  [link](http://www.boredapi.com/)
 
-- Bing image search api
+- [Bing image search api](https://azure.microsoft.com/zh-cn/services/cognitive-services/bing-image-search-api/)
+
 
   Let's find some image satisfying requirements !
 
-  [link](https://azure.microsoft.com/zh-cn/services/cognitive-services/bing-image-search-api/)
-
-- Merge Face
+- [Merge Face](https://api-cn.faceplusplus.com/imagepp/v1/mergeface)
 
   Let's swap people's face and have fun!
 
-  [link](https://api-cn.faceplusplus.com/imagepp/v1/mergeface)
 
-- Detect Face
+- [Detect Face](https://api-cn.faceplusplus.com/facepp/v3/detect)
+
 
   Let's detect the human face from image!
-
-  [link](https://api-cn.faceplusplus.com/facepp/v3/detect)
 
 ## Getting Activity
 
 - User sets requirements(accessibility, participants, price, type) in the web front-end
-- Back-end gets requirements  by using  **POST/GET????**
+- Back-end gets requirements  by using  **POST/GET**
 - Using function boreapi() to get the activity which satisfy the requirements from "Bored api" 
 
 ## Getting Picture of Swap-Face
